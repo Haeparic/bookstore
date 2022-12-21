@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bookstore/static/css/main.7371cd53.css",
-    "main.js": "/bookstore/static/js/main.bac94f47.js",
+    "main.css": "/bookstore/static/css/main.68451d85.css",
+    "main.js": "/bookstore/static/js/main.fd51d78c.js",
     "static/media/kyobo_logo.png": "/bookstore/static/media/kyobo_logo.f11b015f418c23ee0295.png",
     "static/media/kyobo_logo_white.png": "/bookstore/static/media/kyobo_logo_white.c4a1c0dda30148c69baa.png",
     "index.html": "/bookstore/index.html",
-    "main.7371cd53.css.map": "/bookstore/static/css/main.7371cd53.css.map",
-    "main.bac94f47.js.map": "/bookstore/static/js/main.bac94f47.js.map"
+    "main.68451d85.css.map": "/bookstore/static/css/main.68451d85.css.map",
+    "main.fd51d78c.js.map": "/bookstore/static/js/main.fd51d78c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7371cd53.css",
-    "static/js/main.bac94f47.js"
+    "static/css/main.68451d85.css",
+    "static/js/main.fd51d78c.js"
   ]
 }
