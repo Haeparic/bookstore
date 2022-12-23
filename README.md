@@ -10,13 +10,16 @@
 <br />
 
 ## 팀원
+### Front-end
 김철호 [Github](https://github.com/Haeparic)
 <br />
 김재진 [Github](https://github.com/mochapot)
 <br />
 반재원 [Github](https://github.com/Banjae)
 <br />
-주봉진 [Github](https://github.com/)
+
+### Back-end
+주봉진 [Github](https://github.com/bbongeva505)
 <br />
 권영장 [Github](https://github.com/addi0518)
 <br />
