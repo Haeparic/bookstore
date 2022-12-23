@@ -113,7 +113,7 @@ const Team = () => {
                 </p>
               </div>
               <div className="flex items-center justify-center w-40 pt-8 mx-auto text-gray-500 border-t border-gray-200">
-                <a href="https://github.com/">
+                <a href="https://github.com/bbongeva505">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
