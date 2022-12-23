@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import instance from '../api/axios';
 import request from '../api/request';
 
@@ -22,6 +22,16 @@ const Bookdetail = () => {
     fetchData();
   }, []);
 
+  //없는 페이지 처리
+  const navigate = useNavigate();
+
+  useEffect( () => {
+    const num = () => id > 0 && id < 45 ? id : null;
+    if ( num() !== id) {
+      navigate("/*")
+    }
+  });
+
   // 천원단위 콤마
   function comprice(p) {
     return p.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
@@ -36,7 +46,7 @@ const Bookdetail = () => {
   const today = new Date();
   today.setDate(today.getDate()+1);
   const tomorrow = new Date();
-  tomorrow.setDate(today.getDate()+10);
+  tomorrow.setDate(today.getDate()+1);
   const month = today.getMonth()+1;
   const nextMonth = tomorrow.getMonth()+1;
   const date = today.getDate();
@@ -47,7 +57,7 @@ const Bookdetail = () => {
   const weekDay = ('내일 (' + month + '/' + date + ',' + day + ')')
   const weekend = ('모레 (' + nextMonth + '/' + tomoDate + ',' + tomoDay + ')')
   
-  const deliDay = (day == '일') ? weekend : weekDay;
+  const deliDay = (day === '일') ? weekend : weekDay;
   
   // 바뀌는 버튼 만들기
   const [clickHeart, setClickHeart] = useState(true);
